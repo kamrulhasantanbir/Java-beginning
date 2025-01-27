@@ -19,5 +19,7 @@ public class Input_Output {
       System.out.println("You are " + age + " years old !");
       System.out.println("You live in " + address);
       System.out.println("Your current CGPA is :" + res);
+
+     cin.close();
     }
 }
