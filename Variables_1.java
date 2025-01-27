@@ -1,4 +1,4 @@
-public class Variables {
+public class Variables_1 {
     public static void main(String[] args) {
       int a = 100;
       long b = 99999999999L;
