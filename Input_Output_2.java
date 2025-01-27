@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Input_Output {
+public class Input_Output_2 {
     public static void main(String[] args) {
        Scanner cin = new Scanner (System.in);
        String name , address;
