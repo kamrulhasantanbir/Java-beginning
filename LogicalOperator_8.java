@@ -12,6 +12,11 @@ public class LogicalOperator_8 {
 
         System.out.print("Enter value for c: ");
         int c = scanner.nextInt();
+        
+        scanner.nextLine()
+        System.out.print("Enter value for d: ");
+        String d = scanner.nextLine();
+        
 
         // Check if a is the biggest
         if (a > b && a > c) {
@@ -27,13 +32,10 @@ public class LogicalOperator_8 {
             System.out.println("All values are greater than or equal to a");
         }
 
-        // Check if a is positive, negative or zero
-        if (a > 0) {
-            System.out.println("a is positive");
-        } else if (a < 0) {
-            System.out.println("a is negative");
-        } else {
-            System.out.println("a is zero");
+        if (d.equals("tanbir")) {
+            System.out.println("hello you tanbir");
+        } else if(!d.equals("tanbir")) {
+            System.out.println("I don't know you");
         }
 
         scanner.close();
