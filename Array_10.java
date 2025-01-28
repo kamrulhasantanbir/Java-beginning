@@ -27,7 +27,7 @@ public class Array_10 {
 
 
         System.out.println("\nInt array:");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < nums.length; i++) {
             System.out.print(nums[i] + " ");
         }
         System.out.println();
